@@ -1,8 +1,13 @@
 # OOP
 
+OOP(Object-Oriented-Programming)을 정리합니다.
+OOP하면 '5원칙과 4가지 특성'이 자동적으로 튀어 나와야합니다.:star:
+OOP를 사용하면 코드의 재사용성을 높이고, 유지보수를 쉽게해주며, 간결한 코드를 작성할 수 있습니다.
+대신, 간단한 프로그램에서는 처리 시간이 절차지향적 언어보다 비교적 오래 걸릴 수 있고, 프로그램을 설계할 때 많은 고민과 시간을 투자해야합니다.
+
 # Index
 1. [OOP 4가지 특징(기본)](#oop-4가지-특징)
-2. [SOLID 원칙](#solid-원칙)
+2. [SOLID 원칙(5원칙)](#solid-원칙)
 
 ## OOP 4가지 특징
 1. 추상화 (Abstraction)
@@ -34,6 +39,39 @@
 ### 4. 다형성 - Polymorphism
  원래 생물학적 용어로 여러(poly) 형태(morphy)를 의미.
 외부에 보이는 모습은 한 가지 형태이지만 실질적으로 쓰이는 기능은 여러 가지 역할을 수행한다는 의미.
-다형성의 예. 오버로딩(overloading). 오버라이딩(overriding).
+
+
+다형성의 예. 
+    오버로딩(overloading) : 하나의 클래스에서 메소드이름은 같지만, 파라미터 타입이 다른 것.(순서가 달라도 다른것).
+    
+    오버라이딩(overriding) : 부모 클래스의 메소드를 자식 클래스의 용도에 맞게 재정의하여 코드의 재사용성을 높임.
+
+---
 
 ## SOLID 원칙
+> [Clean Code]의 저자 로버트 마틴이 객체 지향 프로그래밍 및 설계의 다섯 가지 가본 원칙을 마이클 패더스가 SOLID라는 약어로 소개한 것입니다.
+
+- S (SRP: Single Responsibility Principle)
+  
+  한 클래스는 하나의 책임만 가져야 한다.
+
+- O (OCP: Open/Closed Principle)
+  
+  확장에는 열려 있으나, 변경에는 닫혀 있어야 한다.
+
+- L (LSP: Liskov's Substitution Principle)
+  
+  프로그램의 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다.
+
+- I (ISP: Interface Segregation Principle)
+  
+  특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다.
+
+- D (DIP: Dependency Inversion Principle)
+  
+  추상화에 의존한다. 구체화에 의존하면 안된다.
+
+
+참고할 만한 글
+- [넥스트리](https://www.nextree.co.kr/p6960/)
+- [카일님 기술블로그](https://velog.io/@kyle/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-SOLID-%EC%9B%90%EC%B9%99-%EC%9D%B4%EB%9E%80)

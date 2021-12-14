@@ -31,4 +31,9 @@
 
 <image src="./image/inheritance.png" alt="inheritance zero-base">
 
+### 4. 다형성 - Polymorphism
+ 원래 생물학적 용어로 여러(poly) 형태(morphy)를 의미.
+외부에 보이는 모습은 한 가지 형태이지만 실질적으로 쓰이는 기능은 여러 가지 역할을 수행한다는 의미.
+다형성의 예. 오버로딩(overloading). 오버라이딩(overriding).
+
 ## SOLID 원칙

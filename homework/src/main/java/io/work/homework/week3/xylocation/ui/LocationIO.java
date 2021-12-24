@@ -91,6 +91,7 @@ public class LocationIO {
 	private void printResult(RandomLocations randomLocations, Location myLocation) {
 		Integer mindistance = null;
 		Location nearestLocation = null;
+
 		for (Location randomLocation : randomLocations.getLocations()) {
 			Integer xDistance = Math.abs(randomLocation.getX() - myLocation.getX());
 			Integer yDistance = Math.abs(randomLocation.getY() - myLocation.getY());
